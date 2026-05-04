@@ -3,7 +3,7 @@
 ## Phase 1 - Foundations
 
 1. What an agent is — [[01-lessons/01-foundations/lesson]]
-2. Tools and structured inputs
+2. Tools and structured inputs — [[01-lessons/02-tools/lesson]]
 3. Safe filesystem actions
 4. Agent loops and termination
 
@@ -16,8 +16,8 @@
 
 ## Current focus
 
-- [[01-lessons/01-foundations/lesson|Lesson 1: foundations]]
-- [[02-projects/project-01-goal-planner/README|Project 1: goal planner]]
-- [[04-memory-vault/reflections/week-01|First reflection]]
-- [[05-blog/drafts/2026-05-02-learning-agents-in-public|First blog draft]]
-- Build [[04-memory-vault/concepts/README|memory notes]] as you study
+- [[01-lessons/02-tools/lesson|Lesson 2: tools and structured inputs]]
+- [[02-projects/project-02-tool-agent/README|Project 2: first tool-using agent]]
+- [[04-memory-vault/concepts/tools-vs-prompts|Tools vs prompts]]
+- [[04-memory-vault/concepts/react-pattern|ReAct pattern]]
+- Keep [[02-projects/project-01-goal-planner/README|Project 1]] as the planning baseline

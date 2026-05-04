@@ -2,40 +2,34 @@
 
 When you reopen the vault, start here.
 
-## Resume Project 1
+## Current focus
 
-Project 1 is working. To pick up:
+1. Read [[01-lessons/02-tools/lesson]]
+2. Complete [[01-lessons/02-tools/exercises]]
+3. Start [[02-projects/project-02-tool-agent/README]]
+
+## Project 2 checklist
+
+1. Define 2 small tools
+2. Return structured JSON from the model
+3. Route tool calls in Python
+4. Produce one final answer from tool results
+
+## Keep Project 1 as a reference
+
+Project 1 is working. Use it if you want to revisit planning patterns:
 
 ```powershell
 cd 02-projects\project-01-goal-planner
-.venv\Scripts\Activate.ps1   # from repo root first
+.venv\Scripts\Activate.ps1
 python main.py
 ```
 
-- Choose a model at startup (number or Enter for mistral:latest)
-- Enter any goal — the brainstorm agent will ask only what it needs, then produce a plan
+## Optional cleanup
 
-### What to improve next on Project 1
-
-1. Save the generated plan to a markdown file automatically
-2. Let the user rate or edit the plan after generation
-3. Add a `--model` CLI flag so model can be passed without the interactive picker
-4. Explore using `qwen2.5-coder` or `gemma4` for better plan quality
-
-## Lesson 1 (still pending)
-
-1. Complete [[01-lessons/01-foundations/exercises]]
-2. Write one concept note in `04-memory-vault/concepts/`
-3. Fill in [[04-memory-vault/reflections/week-01]]
-4. Expand [[05-blog/drafts/2026-05-02-learning-agents-in-public]]
-
-## Phase 2 prep
-
-When Lesson 1 is done, move to:
-
-- Lesson 2: Tools and structured inputs
-- Project 2: first real tool-using agent (file reader, web search, or similar)
-- Begin Ollama + LangGraph integration
+1. Add one more memory note in `04-memory-vault/concepts`
+2. Expand [[05-blog/drafts/2026-05-02-learning-agents-in-public]]
+3. Capture what changed between Project 1 and Project 2
 
 ## Rule for smooth learning
 

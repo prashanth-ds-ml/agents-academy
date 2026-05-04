@@ -4,6 +4,10 @@
 
 - Lesson 2: Tools and Structured Inputs — [[01-lessons/02-tools/lesson]]
 
+## Active project
+
+- [[02-projects/project-02-tool-agent/README|Project 2: first tool-using agent]]
+
 ## Completed
 
 - Academy scaffold created
@@ -17,13 +21,15 @@
   - Model picker at startup — any locally available Ollama model
 - Week 1 reflection written — [[04-memory-vault/reflections/week-01]]
 - Lesson 1 complete — [[01-lessons/01-foundations/lesson]]
+- Project 2 scaffold ready — [[02-projects/project-02-tool-agent/README]]
 
 ## Next milestones
 
 1. Read [[01-lessons/02-tools/lesson|Lesson 2: Tools]]
 2. Complete [[01-lessons/02-tools/exercises|Lesson 2 exercises]]
-3. Build [[02-projects/project-02-tool-agent/README|Project 2]]: first tool-using agent
+3. Build the first working version of [[02-projects/project-02-tool-agent/README|Project 2]]
 4. Write concept notes: [[04-memory-vault/concepts/tools-vs-prompts]] and [[04-memory-vault/concepts/react-pattern]]
+5. Decide whether to improve Project 1 further or move directly into filesystem tools
 
 ## See also
 

@@ -31,6 +31,6 @@ Start from [[HOME]].
 - Use `04-memory-vault` for concept notes and reflections
 - Use `07-templates` when creating new learning notes
 
-## First step
+## Current step
 
-Start with `01-lessons\01-foundations\lesson.md`, then open `02-projects\project-01-goal-planner`.
+Continue with `01-lessons\02-tools\lesson.md`, then open `02-projects\project-02-tool-agent`.
