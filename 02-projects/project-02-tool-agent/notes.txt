@@ -1,0 +1,18 @@
+Project Notes - Tool Agent Test
+
+Goal: Test the tool-using agent.
+
+Tech stack decided:
+- Backend: Python + SQLite
+- Frontend: Streamlit
+- Auth: Local password (no OAuth for v1)
+
+Key features:
+1. Transaction ledger (income / expense)
+2. Subscription tracker
+3. Monthly summary report
+4. Simple budget goals
+
+Status: Planning phase complete. Ready to scaffold.
+
+Last updated: 2026-05-04
