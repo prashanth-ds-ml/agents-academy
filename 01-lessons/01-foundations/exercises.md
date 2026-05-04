@@ -38,7 +38,7 @@ Answer:
 
 ## Mini challenge
 
-Open `02-projects\project-01-goal-planner\main.py` and run it.
+Open [[02-projects/project-01-goal-planner/README]] and run it.
 
 Then modify it so the planner gives:
 
@@ -46,3 +46,11 @@ Then modify it so the planner gives:
 - steps
 - risks
 - next action
+
+## Related
+
+- [[01-lessons/01-foundations/lesson]]
+- [[01-lessons/01-foundations/notes]]
+- [[04-memory-vault/concepts/chatbot-vs-workflow-vs-agent]]
+- [[04-memory-vault/reflections/week-01]]
+

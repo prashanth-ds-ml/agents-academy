@@ -98,9 +98,16 @@ Write your own answer to this:
 
 Try to explain it in 5 lines without jargon.
 
+## Concept notes
+
+- [[04-memory-vault/concepts/chatbot-vs-workflow-vs-agent]]
+- [[04-memory-vault/concepts/agent-loop]]
+- [[04-memory-vault/concepts/memory-vs-state]]
+
 ## After this lesson
 
-Open:
+- [[01-lessons/01-foundations/exercises]]
+- [[01-lessons/01-foundations/notes]]
+- [[02-projects/project-01-goal-planner/README]]
+- Next → [[01-lessons/02-tools/lesson]]
 
-- `exercises.md`
-- `..\..\02-projects\project-01-goal-planner\README.md`

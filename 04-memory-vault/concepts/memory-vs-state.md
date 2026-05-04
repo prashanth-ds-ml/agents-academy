@@ -24,3 +24,9 @@ Examples:
 ## Why it matters
 
 Agents become easier to debug when short-term state and long-term memory are treated differently.
+
+## Links
+
+- [[01-lessons/01-foundations/lesson]]
+- [[04-memory-vault/concepts/agent-loop]]
+- [[04-memory-vault/concepts/chatbot-vs-workflow-vs-agent]]

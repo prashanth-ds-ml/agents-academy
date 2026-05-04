@@ -1,44 +1,56 @@
 # Project 1 - Goal Planner
 
-This first mini-project is intentionally simple.
+A two-stage Ollama-powered agent that brainstorms with the user before producing a structured plan.
 
-It is **not** a full agent yet. It helps you see the difference between:
+## What it does
 
-- a plain response
-- a structured workflow
-- the beginning of agent thinking
+1. **Model picker** — lists all locally available Ollama models at startup; pick by number, name, or Enter for `mistral:latest`
+2. **Brainstorm agent** — thinks internally (dim panel + elapsed time), asks only the minimal critical questions it cannot answer itself, loops until it has enough context (`READY_TO_PLAN`)
+3. **Planner agent** — uses the full Q&A context to generate a specific, tailored plan streamed live to the terminal
 
-## Goal
+## Output format
 
-Take a user goal and return:
+- Objective
+- Steps (4)
+- Risks
+- Constraints
+- Next action
 
-1. objective
-2. steps
-3. risks
-4. constraints
-5. next action
+## Architecture
 
-## Lesson note
+```
+Goal input
+  ↓
+Brainstorm loop (Ollama call per round)
+  ├─ spinner while model thinks
+  ├─ dim panel shows internal reasoning
+  ├─ bold white shows questions (numbered lines only)
+  └─ repeats until READY_TO_PLAN
+  ↓
+Planner (Ollama call, streams live)
+  ↓
+Structured plan output
+```
 
-This project does **not** use Ollama yet.
+## Stack
 
-It is intentionally rule-based so you can learn:
-
-- structured output
-- goal-aware logic
-- why structure alone is still not a full agent
-
-The output now shows a visible **Model** line to make that explicit.
+- `langchain-ollama` + `langchain-core` — LLM chaining
+- `rich` — terminal UI (panels, rules, spinner, streaming)
+- `ollama` Python client — model listing
+- Rule-based fallback if Ollama is unavailable
 
 ## Run
 
 ```powershell
+# from repo root
+.venv\Scripts\Activate.ps1
+cd 02-projects\project-01-goal-planner
 python main.py
 ```
 
-## Practice ideas
+## What to build next
 
-1. Change the questions it asks.
-2. Add another goal-aware case, like a study planner or blog writer.
-3. Add a "what should happen next?" section.
-4. Later, turn it into a real tool-using agent.
+1. Save plan output to a markdown file
+2. Add `--model` CLI flag to skip the picker
+3. Let user edit or rate the plan after generation
+4. Turn into a real tool-using agent (Phase 2)
