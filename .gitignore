@@ -128,3 +128,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 .streamlit/secrets.toml
+
+# CodeMitra — lives in its own repo (prashanth-ds-ml/local-codex)
+# Pasted here for reference only, not tracked by this repo
+codemitra/

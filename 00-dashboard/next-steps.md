@@ -2,34 +2,75 @@
 
 When you reopen the vault, start here.
 
-## Current focus
+## Current focus — Project 2 done, CodeMitra phase 4 is next
 
-1. Read [[01-lessons/02-tools/lesson]]
-2. Complete [[01-lessons/02-tools/exercises]]
-3. Start [[02-projects/project-02-tool-agent/README]]
+### Agents Academy
 
-## Project 2 checklist
+| Item | Status |
+|---|---|
+| Lesson 1 — Foundations | ✅ Done |
+| Lesson 2 — Tools | ✅ Done |
+| Project 1 — Goal Planner | ✅ Done |
+| Project 2 — ReAct Tool Agent | ✅ Done |
+| Lesson 3 — Code Reader patterns | 🔲 Next |
+| Lesson 4 — Memory | 🔲 Planned |
+| Project 3 — Code Reader Agent | 🔲 Next |
 
-1. Define 2 small tools
-2. Return structured JSON from the model
-3. Route tool calls in Python
-4. Produce one final answer from tool results
+### CodeMitra (→ local-codex repo)
 
-## Keep Project 1 as a reference
+| Phase | Description | Status |
+|---|---|---|
+| 1–3 | Foundation, chat, filesystem agent | ✅ Done |
+| 4 | Routing end-to-end test | ⚠️ Needs test |
+| 5 | Code reader agent | 🔲 Next |
+| 6 | Shell agent | 🔲 Planned |
+| 7 | Planner agent | 🔲 Planned |
+| 8 | Memory | 🔲 Planned |
 
-Project 1 is working. Use it if you want to revisit planning patterns:
+---
+
+## How academy and CodeMitra connect
+
+```
+Academy lesson/project    →    CodeMitra phase
+──────────────────────────────────────────────
+Project 1 (goal planner)  →    Conversation Agent + Planner Agent
+Project 2 (ReAct tools)   →    Filesystem Agent execution loop
+Project 3 (code reader)   →    Phase 5 — Code Reader Agent
+Project 4 (memory)        →    Phase 8 — Memory layer
+```
+
+Learn the pattern in the academy → implement it properly in CodeMitra.
+
+---
+
+## Run Project 1
 
 ```powershell
-cd 02-projects\project-01-goal-planner
+cd C:\Users\prash\Projects\agents-academy
 .venv\Scripts\Activate.ps1
+cd 02-projects\project-01-goal-planner
 python main.py
 ```
 
-## Optional cleanup
+## Run Project 2
 
-1. Add one more memory note in `04-memory-vault/concepts`
-2. Expand [[05-blog/drafts/2026-05-02-learning-agents-in-public]]
-3. Capture what changed between Project 1 and Project 2
+```powershell
+cd C:\Users\prash\Projects\agents-academy
+.venv\Scripts\Activate.ps1
+cd 02-projects\project-02-tool-agent
+python main.py
+```
+
+## Run CodeMitra
+
+```powershell
+cd C:\Users\prash\Projects\local-codex
+.venv\Scripts\Activate.ps1
+codemitra
+```
+
+---
 
 ## Rule for smooth learning
 
