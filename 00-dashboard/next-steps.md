@@ -2,7 +2,7 @@
 
 When you reopen the vault, start here.
 
-## Current focus — Project 2 done, CodeMitra phase 4 is next
+## Current focus — CodeMitra phases 1–9 done, next: diff preview + test loop
 
 ### Agents Academy
 
@@ -20,12 +20,15 @@ When you reopen the vault, start here.
 
 | Phase | Description | Status |
 |---|---|---|
-| 1–3 | Foundation, chat, filesystem agent | ✅ Done |
-| 4 | Routing end-to-end test | ⚠️ Needs test |
-| 5 | Code reader agent | 🔲 Next |
-| 6 | Shell agent | 🔲 Planned |
-| 7 | Planner agent | 🔲 Planned |
-| 8 | Memory | 🔲 Planned |
+| 1–4 | Foundation, chat, filesystem agent, routing | ✅ Done |
+| 5 | Code reader agent | ✅ Done |
+| 6 | Shell agent | ✅ Done |
+| 7 | Planner agent | ✅ Done |
+| 8 | Memory vault | ✅ Done |
+| 9 | Brainstorm loop (from Academy Project 1) | ✅ Done |
+| 10 | Diff preview before writes + test loop | 🔲 **Next** |
+| 11 | `/explain` and `/fix` slash commands | 🔲 Planned |
+| 12 | Project auto-detect on startup | 🔲 Planned |
 
 ---
 
@@ -34,10 +37,10 @@ When you reopen the vault, start here.
 ```
 Academy lesson/project    →    CodeMitra phase
 ──────────────────────────────────────────────
-Project 1 (goal planner)  →    Conversation Agent + Planner Agent
-Project 2 (ReAct tools)   →    Filesystem Agent execution loop
-Project 3 (code reader)   →    Phase 5 — Code Reader Agent
-Project 4 (memory)        →    Phase 8 — Memory layer
+Project 1 (goal planner)  →    Brainstorm Agent + Planner Agent ✅
+Project 2 (ReAct tools)   →    Filesystem Agent execution loop  ✅
+Project 3 (code reader)   →    Code Reader Agent                ✅
+Project 4 (memory)        →    Memory vault                     ✅
 ```
 
 Learn the pattern in the academy → implement it properly in CodeMitra.
